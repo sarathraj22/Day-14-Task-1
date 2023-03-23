@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <p id="description">DOM Manipulation</p>
+        <h1 id="title">Form Submit</h1>
+
+        <form action="" id="form">
+            <label class="form-data" for="firstName">First name</label>
+            <input class="form-data" type="text" placeholder="Please enter First Name" id="firstName">
+
+            <label class="form-data" for="lastName">Last name</label>
+            <input class="form-data" type="text" placeholder="Please enter Last Name" id="lastName">
+
+            <label class="form-data" for="address">Address</label>
+            <input class="form-data" type="text" placeholder="Please enter Address" id="address">
+
+            <label class="form-data" for="pincode">Pincode</label>
+            <input class="form-data" type="text" placeholder="Please enter Pin-Code" id="pincode">
+
+            <label class="form-data" for="gender">Gender</label>
+            <select class="form-data" name="gender" id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not to answer">Perfer not to Answer</option>
+            </select>
+
+            <label class="form-data" for="food">Food</label>
+            <select class="form-data" name="food" id="food">
+                <option value="">Select Food</option>
+                <option value="Idly">Idly</option>
+                <option value="dosa">Dosa</option>
+                <option value="briyani">Briyani</option>
+                <option value="parotta">Parotta</option>
+                <option value="icecream">Ice-Cream</option>
+            </select>
+
+            <label class="form-data" for="state">State</label>
+            <input class="form-data" type="text" placeholder="Please enter your State name" id="state">
+
+            <label class="form-data" for="country">Country</label>
+            <input class="form-data" type="text" placeholder="Please enter your Country name" id="country">
+
+            <button class="form-data" type="submit" id="submit">Submit</button>
+        </form>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Lame</th>
+                    <th>Adress</th>
+                    <th>Pincode</th>
+                    <th>Gender</th>
+                    <th>Food</th>
+                    <th>State</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody> </tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
